@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Reading data from the user's input
-echo 'Enter a : '
+echo 'Enter a number : '
 read a
 echo 'Enter b : ' 
 read b
