@@ -21,8 +21,8 @@ echo Division of a and b are $div
 mod=$(echo "scale=5; ($a % $b)" | bc)
 echo Modulus of a and b are $mod
 
-((++a))
-echo Increment operator when applied on "a" results into a = $a
+ai=$(echo "scale=2; ($a + 1)" | bc -l)
+echo Increment operator when applied on "a" results into a = $ai
 
 ((--b))
 echo Decrement operator when applied on "b" results into b = $b
