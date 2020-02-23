@@ -6,14 +6,13 @@ read a
 echo 'Enter another number (b) : '
 read b
 
-add=$((a + b))
-
+add=$(echo "scale=2; ($a + $b)" | bc)
 echo Addition of a and b are $add
 
-sub=$((a - b))
+sub=$(echo "scale=2; ($a - $b)" | bc)
 echo Subtraction of a and b are $sub
 
-mul=$((a * b))
+mul=$(echo "scale=2; ($a * $b)" | bc)
 echo Multiplication of a and b are $mul
 
 div=$(echo "scale=4; ($a/$b)" | bc)
