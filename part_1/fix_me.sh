@@ -16,7 +16,7 @@ echo Subtraction of a and b are $sub
 mul=$((a * b))
 echo Multiplication of a and b are $mul
 
-div=$((a / b))
+div=$(echo "scale=4; ($a/$b)" | bc)
 echo Division of a and b are $div
 
 mod=$((a % b))
