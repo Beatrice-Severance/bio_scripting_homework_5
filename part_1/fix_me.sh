@@ -24,8 +24,8 @@ echo Modulus of a and b are $mod
 ai=$(echo "scale=2; ($a + 1)" | bc -l)
 echo Increment operator when applied on "a" results into a = $ai
 
-((--b))
-echo Decrement operator when applied on "b" results into b = $b
+bi=$(echo "scale=2; ($b - 1)" | bc -l)
+echo Decrement operator when applied on "b" results into b = $bi
 
 ((--c))
 echo What was the default value \ of c if its value is now $c\?
