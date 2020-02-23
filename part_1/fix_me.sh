@@ -19,7 +19,7 @@ echo Multiplication of a and b are $mul
 div=$(echo "scale=4; ($a/$b)" | bc)
 echo Division of a and b are $div
 
-mod=$((a % b))
+mod=$(echo "scale=5; ($a % $b)" | bc)
 echo Modulus of a and b are $mod
 
 ((++a))
