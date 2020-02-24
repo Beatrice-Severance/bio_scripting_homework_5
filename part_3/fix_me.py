@@ -22,24 +22,24 @@ print("What is", a, "now?", type(a))
 print("What is", b, "now?", type(b))
 
 
-#total = a + b
-#print("a + b =", total, ", which is a", type(total))
+total = a + b
+print("a + b =", total, ", which is a", type(total))
 
-#difference = a - b
-#print("a - b =", difference, ", which is a", type(difference))
+difference = a - b
+print("a - b =", difference, ", which is a", type(difference))
 
-#product = a * b
-#print("a * b =", product, ", which is a", type(product))
+product = a * b
+print("a * b =", product, ", which is a", type(product))
 
-#quotient = a / b
-#print("a / b =", quotient, ", which is a", type(quotient))
+quotient = a / b
+print("a / b =", quotient, ", which is a", type(quotient))
 
-#floor_quotient = a // b
-#print("a // b =",
-#        floor_quotient,
-#        ", which is a",
-#        type(floor_quotient),
-#        )
+floor_quotient = a // b
+print("a // b =",
+        floor_quotient,
+        ", which is a",
+        type(floor_quotient),
+        )
 
 #remainder = a % b
 #print("a % b =", remainder, ", which is a", type(remainder))
