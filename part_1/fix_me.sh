@@ -27,5 +27,8 @@ echo Increment operator when applied on "a" results into a = $ai
 bi=$(echo "scale=2; ($b - 1)" | bc -l)
 echo Decrement operator when applied on "b" results into b = $bi
 
+echo 'Enter a third number (c) : '
+read c
+
 ((--c))
 echo What was the default value \ of c if its value is now $c\?
