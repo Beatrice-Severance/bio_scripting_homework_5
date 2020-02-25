@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 # Reading data from the user's input
-a = input("Enter a number (a): ")
+a = input("Enter a whole number (a): ")
 
 print("You entered", a, "which is a", type(a))
 
 a = int(a)
 
-b = input("Enter another number (b): ")
+b = input("Enter another whole number (b): ")
 
 print("You entered", b, "which is a", type(b))
 
@@ -41,11 +41,11 @@ print("a // b =",
         type(floor_quotient),
         )
 
-#remainder = a % b
-#print("a % b =", remainder, ", which is a", type(remainder))
+remainder = a % b
+print("a % b =", remainder, ", which is a", type(remainder))
 
-#power = a ** b
-#print("a ** b =", power, ", which is a", type(power))
+power = a ** b
+print("a ** b =", power, ", which is a", type(power))
 
 #a += 1
 #print("Incrementing \"a\" by one results in", a, "which is a", type(a))
