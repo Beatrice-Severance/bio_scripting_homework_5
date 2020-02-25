@@ -49,18 +49,19 @@ print("a % b =", remainder, ", which is a", type(remainder))
 power = a ** b
 print("a ** b =", power, ", which is a", type(power))
 
-#a += 1
-#print("Incrementing \"a\" by one results in", a, "which is a", type(a))
+a += 1
+print("Incrementing \"a\" by one results in", a, "which is a", type(a))
+print("a is now", a)
 
-#b -= 1
-#print("Decrementing \"b\" by one results in", b, "which is a", type(b))
+b -= 1
+print("Decrementing \"b\" by one results in", b, "which is a", type(b))
 
-#a += 1.0
-#print("Incrementing \"a\" by 1.0 results in", a, "which is a", type(a))
+a += 1.0
+print("Incrementing \"a\" by 1.0 results in", a, "which is a", type(a))
 
 
-#print("Now \"a\" equals", a, "and is a", type(a))
-#print("Now \"b\" equals", b, "and is a", type(b))
+print("Now \"a\" equals", a, "and is a", type(a))
+print("Now \"b\" equals", b, "and is a", type(b))
 
 
 #total = a + b
