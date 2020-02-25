@@ -18,6 +18,8 @@ b = int(b)
 #       Let's assume we want a and b to be integers at this point
 #######################################################################
 
+print("Converting your numbers to integers...")
+
 print("What is", a, "now?", type(a))
 print("What is", b, "now?", type(b))
 
